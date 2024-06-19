@@ -7,11 +7,6 @@ def suma (num1,num2):
     sum=num1+num2
     return sum
 
-while True:
-    op=(int(input("ingrese la opcion que mas le corresponda\n1.suma\n2.resta\n3.division\n4.multiplicacion\n")))
-
-#hola este es el segundo dialogo
-
 def calcularResta (num1, num2):
     resultado = num1 - num2
     return resultado
@@ -19,3 +14,7 @@ def calcularResta (num1, num2):
 def calcularDivision (num1, num2):
     resultado = num1 / num2
     return resultado
+
+while True:
+    op=(int(input("ingrese la opcion que mas le corresponda\n1.suma\n2.resta\n3.division\n4.multiplicacion\n")))
+
