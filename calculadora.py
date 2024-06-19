@@ -17,9 +17,15 @@ def calcularDivision (num1, num2):
     return resultado
 
 while True:
-    op=(int(input("ingrsoygayese la opcion que mas le corresponda\n1.suma\n2.resta\n3.division\n4.multiplicacion\n")))
+    op=(int(input("ingrese la opcion que mas le corresponda\n1.suma\n2.resta\n3.division\n4.multiplicacion\n")))
     
     if op == 1:
         num1 = int(input('Ingrese el primer numero:\n'))
         num2= int(input('Ingrese el segundo numero:\n'))
         print(suma(num1, num2))
+
+    if op == 2:
+        num1 = int(input('Ingrese el primer numero:\n'))
+        num2= int(input('Ingrese el segundo numero:\n'))
+        print(calcularResta(num1, num2))
+    
