@@ -39,5 +39,6 @@ while True:
         num2= int(input('Ingrese el segundo numero:\n'))
         print(multiplicacion(num1, num2))
     
-        if op == 5:
-            print("CHAO")
+    if op == 5:
+        print("CHAO")
+        break
